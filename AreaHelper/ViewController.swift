@@ -15,11 +15,18 @@ class ViewController: UIViewController {
     //Properties
     @IBOutlet weak var inputLength: UITextField!
     @IBOutlet weak var inputWidth: UITextField!
+    @IBOutlet weak var answer: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         speak("Welcome to Area Helper!")
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
     }
 
 
@@ -46,6 +53,9 @@ class ViewController: UIViewController {
             speak("Width must be a submitted as a number.")
             return
         }
+        
+        let resultingArea = integerWidth * integerLength
+        answer.text = String(resultingArea)
         
     }
     
