@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E35222C23612CE500616F7B /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35222B23612CE500616F7B /* CircleViewController.swift */; };
 		9EAC24DD2357E5E500B0F3AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC24DC2357E5E500B0F3AE /* AppDelegate.swift */; };
 		9EAC24DF2357E5E500B0F3AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC24DE2357E5E500B0F3AE /* ViewController.swift */; };
 		9EAC24E22357E5E500B0F3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC24E02357E5E500B0F3AE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E35222B23612CE500616F7B /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		9EAC24D92357E5E500B0F3AE /* AreaHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EAC24DC2357E5E500B0F3AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EAC24DE2357E5E500B0F3AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				9EAC24DC2357E5E500B0F3AE /* AppDelegate.swift */,
 				9EAC24DE2357E5E500B0F3AE /* ViewController.swift */,
+				9E35222B23612CE500616F7B /* CircleViewController.swift */,
 				9EAC24E02357E5E500B0F3AE /* Main.storyboard */,
 				9EAC24E32357E5E700B0F3AE /* Assets.xcassets */,
 				9EAC24E52357E5E700B0F3AE /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				9EAC24DF2357E5E500B0F3AE /* ViewController.swift in Sources */,
 				9EAC24DD2357E5E500B0F3AE /* AppDelegate.swift in Sources */,
+				9E35222C23612CE500616F7B /* CircleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

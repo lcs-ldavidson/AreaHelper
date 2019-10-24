@@ -92,7 +92,7 @@
         <!--Circle-->
         <scene sceneID="do1-j5-AET">
             <objects>
-                <viewController title="Circle" id="5BM-hs-zK6" sceneMemberID="viewController">
+                <viewController title="Circle" id="5BM-hs-zK6" customClass="CircleViewController" customModule="AreaHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nu4-uT-U4V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,6 +119,7 @@
                                 <state key="normal" title="Calculate"/>
                                 <connections>
                                     <action selector="calculateArea:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqO-AP-3xB"/>
+                                    <action selector="calculateCircleArea:" destination="5BM-hs-zK6" eventType="touchUpInside" id="R6B-mb-Chr"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2019-10-16 at 8.36.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="dlY-ms-qVl">
@@ -143,6 +144,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ztk-Mv-ThT"/>
                     </view>
+                    <connections>
+                        <outlet property="circleAnswer" destination="4U9-Wz-Q2U" id="Ylp-qS-YNk"/>
+                        <outlet property="inputRadius" destination="PUd-yh-vrK" id="obm-0V-anI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQ3-9h-gjT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
