@@ -53,17 +53,3 @@ class CircleViewController: UIViewController {
 
 
 
-
-// A function that will speak whatever message is provided
-func circleSpeak(_ message: String) {
-    
-    //make an object named synthesizer which is an instance of the class AVSynthesizer
-    let synthesizer = AVSpeechSynthesizer()
-    
-    //make an object named utterance, which is an instance of the class AVSpeechUtterance
-    let utterance = AVSpeechUtterance(string: message)
-    
-    //say the message
-    synthesizer.speak(utterance)
-}
-
