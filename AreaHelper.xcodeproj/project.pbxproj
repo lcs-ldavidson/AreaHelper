@@ -13,6 +13,7 @@
 		9EAC24E22357E5E500B0F3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC24E02357E5E500B0F3AE /* Main.storyboard */; };
 		9EAC24E42357E5E700B0F3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC24E32357E5E700B0F3AE /* Assets.xcassets */; };
 		9EAC24E72357E5E700B0F3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EAC24E52357E5E700B0F3AE /* LaunchScreen.storyboard */; };
+		9EDFB3B023627E8F0006D97A /* CubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFB3AF23627E8F0006D97A /* CubeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9EAC24E32357E5E700B0F3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EAC24E62357E5E700B0F3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EAC24E82357E5E700B0F3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDFB3AF23627E8F0006D97A /* CubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9EAC24E32357E5E700B0F3AE /* Assets.xcassets */,
 				9EAC24E52357E5E700B0F3AE /* LaunchScreen.storyboard */,
 				9EAC24E82357E5E700B0F3AE /* Info.plist */,
+				9EDFB3AF23627E8F0006D97A /* CubeViewController.swift */,
 			);
 			path = AreaHelper;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EAC24DF2357E5E500B0F3AE /* ViewController.swift in Sources */,
+				9EDFB3B023627E8F0006D97A /* CubeViewController.swift in Sources */,
 				9EAC24DD2357E5E500B0F3AE /* AppDelegate.swift in Sources */,
 				9E35222C23612CE500616F7B /* CircleViewController.swift in Sources */,
 			);

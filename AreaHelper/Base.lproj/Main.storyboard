@@ -156,7 +156,7 @@
         <!--Cube-->
         <scene sceneID="lGp-WA-G2j">
             <objects>
-                <viewController title="Cube" id="SLh-9r-hPx" customClass="CircleViewController" customModule="AreaHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Cube" id="SLh-9r-hPx" customClass="CubeViewController" customModule="AreaHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PKk-d9-Piu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,6 +208,7 @@
                                 <state key="normal" title="Calculate"/>
                                 <connections>
                                     <action selector="calculateArea:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcI-Dv-3pn"/>
+                                    <action selector="calculateCubeSurfaceArea:" destination="SLh-9r-hPx" eventType="touchUpInside" id="wPx-nl-ZTW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qn-vI-Xch">
@@ -235,6 +236,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yVY-4V-s5Q"/>
                     </view>
+                    <connections>
+                        <outlet property="cubeAnswer" destination="lnR-vb-MwZ" id="GaL-WC-UpK"/>
+                        <outlet property="inputCubeHeight" destination="18Q-VT-IR4" id="vbc-gd-UsI"/>
+                        <outlet property="inputCubeLength" destination="Gbt-FA-Py0" id="Uu4-ky-91R"/>
+                        <outlet property="inputCubeWidth" destination="oii-tM-JRN" id="zGh-U1-KqZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IP7-dM-KwC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
